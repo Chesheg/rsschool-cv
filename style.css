@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     color: rgb(0, 0, 0);
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -39,11 +39,36 @@ body {
 }
 
 .container {
+    display: flex;
     width: 1200px;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #f2f2f2;
-    padding: 20px;
-    box-shadow: inset 0 0 0 15px #f2ebeb;
+    box-shadow: 4px 4px 27px 0px rgba(34, 60, 80, 0.2);
+}
 
+.left-block {
+    background-color: #f2f2f2;
+    width: 62%;
+    padding: 20px;
+}
+
+.right-block {
+    background-color: #ffffff;
+    width: 38%;
+    padding: 20px;
+}
+
+.avatar {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+
+    border-radius: 65%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
 }
